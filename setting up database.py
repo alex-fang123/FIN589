@@ -35,7 +35,7 @@ factors_ff3_monthly = (factors_ff3_monthly_raw
 
 # FF5
 factors_ff5_monthly_raw = pdr.DataReader(
-  name="F-F_Research_Data_Factors",
+  name="F-F_Research_Data_5_Factors_2x3",
   data_source="famafrench",
   start=start_date,
   end=end_date)[0]
