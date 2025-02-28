@@ -98,3 +98,6 @@ industries_49_ff_monthly = (industries_49_ff_monthly_raw
     index=False
     )
 )
+
+# read `crsp_monthly_raw.pkl`
+crsp_monthly_raw = pd.read_pickle("data/crsp_monthly_raw.pkl")
